@@ -9,3 +9,5 @@ Comandos de Revisão
     - git log (informações da alteração) 
 
     - git remote add origin url do repositorio
+
+    - git push (enviar pra nuvem)
