@@ -25,7 +25,7 @@ public class entrada {
             
             else {
                 System.out.println("[ERRO]: Digite um número inteiro válido.");
-                scanner.next(); // Descartar entrada inválida
+                scanner.next();                                              // descartar entrada inválida
             }
         }
     }

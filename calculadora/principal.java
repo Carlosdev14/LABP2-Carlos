@@ -16,8 +16,7 @@ public class principal {
             int escolhaOperacao = entrada.entradaOperacao();                         // usa a classe entrada para receber a operação
 
             if (escolhaOperacao == 6) {
-                operacoes.realizarOperacao(6, 0, 0);                     // chama a funçao de operacoes para finalizar
-                break;                                                                                            //  sai do loop e fecha o programa
+                break;                                           //  sai do loop e fecha o programa
             }
 
             System.out.println("");            //pula linha

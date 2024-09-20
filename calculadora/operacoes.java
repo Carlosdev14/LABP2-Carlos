@@ -43,10 +43,6 @@ public class operacoes {
                     System.out.println("[ERRO]: Divisão por zero não é permitida.");
                 }
                 break;
-
-            case 6:
-                System.out.println("\n\nFechando o programa");
-                break;
         }
     }
 }
