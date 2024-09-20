@@ -1,5 +1,5 @@
-O código está funcional mas preciso
+Primeiras versões para estabilizar o algoritmo: 
+    CalcSimples e CalculadoraV2
 
-- Dividir em funções.
 
-- Pôr a calculadora em loop até que escolham fechar o programa
+Versão Definitiva: pasta: "calculadora"
