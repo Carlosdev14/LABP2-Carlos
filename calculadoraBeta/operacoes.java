@@ -44,7 +44,9 @@ public class operacoes {
                     System.out.println("[ERRO]: Operação inválida.");
                     break;
             }
-        } catch (ArithmeticException e) {
+        } 
+        
+        catch (ArithmeticException e) {
             System.out.println("[ERRO]: " + e.getMessage());
         }
     }
