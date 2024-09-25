@@ -1,4 +1,4 @@
-package calculadora;
+package calculadoraBeta;
 
 import java.util.Scanner;
 

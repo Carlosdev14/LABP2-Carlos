@@ -1,4 +1,4 @@
-package calculadora;
+package calculadoraAlfa;
 
 public class operacoes {
 
