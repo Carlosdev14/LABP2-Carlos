@@ -31,7 +31,7 @@ public class entrada {
     }
 
    
-    public static float entradaNumero(String mensagem) {      // função para obter um número float do usuário
+    public static float entradaNumero(String mensagem) {      // função para obter um número float do usuário USANDO VÍRGULA PARA FLOAT
         while (true) {
             System.out.print(mensagem);
             if (scanner.hasNextFloat()) {
@@ -45,6 +45,24 @@ public class entrada {
         }
     }
 
+    /* 
+    public static float entradaNumero(String mensagem) {         // função para obter um número float do usuário USANDO PONTO PARA FLOAT
+        while (true) {
+            System.out.print(mensagem);
+            
+            try {
+                String entrada = scanner.next();       // lê a entrada como uma string para tentar converter para float
+                float numero = Float.parseFloat(entrada);        // tenta converter a string em float
+                return numero;                                                  // retorna o número se a conversão for bem-sucedida
+    
+            } 
+            catch (NumberFormatException e) {
+                System.out.println("[ERRO]: Digite um número válido.");        // avisa o erro caso a entrada não seja um float válido
+            }
+        }
+    }
+    
+    */
    
     public static boolean continuarOperacao() {                        //  função para perguntar se o usuário deseja realizar outra operação
         while (true) {
